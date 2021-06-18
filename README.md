@@ -21,9 +21,12 @@ Change the encoder.json path to correct path in fairseq/fairseq/data/encoder/gpt
           pip install allennlp_models
 
 After model is finetuned use python finalent.py to generate
-Test data and model output for ENTRUST and various systems is in fairseq/testdata/ folder
-Input partisanfinal.source fallaciesfinal.source 
-Output for ENTRUST partisanfinal.hypo fallaciesfinal.hypo 
+
+
+                Test data and model output for ENTRUST and various systems is in fairseq/testdata/ folder
+                Input partisanfinal.source fallaciesfinal.source 
+                Output for ENTRUST partisanfinal.hypo fallaciesfinal.hypo 
+                Gold is fallaciesgoldhuman and partisangoldhuman
 
 
 If you use any data or code please cite us 
